@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.navbar {
+  display: flex;
+  max-width: 100%;
+  height: 80px;
+  border: 1px solid none;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+.navbar .nav__contant {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .nav__contant img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.navbar .nav__contant .nav__items {
+  display: flex;
+  gap: 25px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+}
+.navbar .nav__contant .nav__items a {
+  float: left;
+  display: block;
+  color: rgb(31, 118, 73);
+  font-size: 20px;
+}
+.navbar .nav__contant .nav__items .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar .nav__contant .nav__items #nav__nomber {
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.container .menu__bar {
+  width: 100%;
+  height: 127vh;
+  border: 1px solid red;
+  background-image: url(../../imgs/menu-bg-img.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 127vh;
+}
+.container .menu__bar h1 {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container .menu__bar .menu__bar-menus {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+.container .menu__bar .menu__bar-menus .food_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+.container .menu__bar .menu__bar-menus .food_list .food1 {
+  width: 20%;
+  height: 85%;
+  border-radius: 20px;
+  background-color: rgb(31, 118, 73);
+}
+.container .menu__bar .menu__bar-menus .food_list .food1 img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0px 0px;
+}
+.container .menu__bar .menu__bar-menus .food_list .food1 h3 {
+  padding-top: 3px;
+  color: #fff;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .menu__bar .menu__bar-menus .food_list .food2 {
+  width: 20%;
+  height: 85%;
+  border-radius: 20px;
+  background-color: rgb(31, 118, 73);
+}
+.container .menu__bar .menu__bar-menus .food_list .food2 img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0px 0px;
+}
+.container .menu__bar .menu__bar-menus .food_list .food2 h3 {
+  padding-top: 3px;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .menu__bar .menu__bar-menus .food_list .food3 {
+  width: 20%;
+  height: 85%;
+  border-radius: 20px;
+  background-color: rgb(31, 118, 73);
+}
+.container .menu__bar .menu__bar-menus .food_list .food3 img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0px 0px;
+}
+.container .menu__bar .menu__bar-menus .food_list .food3 h3 {
+  padding-top: 3px;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .menu__bar .menu__bar-menus .food_list .food4 {
+  width: 20%;
+  height: 85%;
+  border-radius: 20px;
+  background-color: rgb(31, 118, 73);
+}
+.container .menu__bar .menu__bar-menus .food_list .food4 img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0px 0px;
+}
+.container .menu__bar .menu__bar-menus .food_list .food4 h3 {
+  color: #fff;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .menu__bar .menu__bar-menus .food_list .food5 {
+  width: 20%;
+  height: 85%;
+  border-radius: 20px;
+  background-color: rgb(31, 118, 73);
+}
+.container .menu__bar .menu__bar-menus .food_list .food5 img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0px 0px;
+}
+.container .menu__bar .menu__bar-menus .food_list .food5 h3 {
+  padding-top: 3px;
+  color: #fff;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .menu__bar .menu__bar-menus .food_list .food6 {
+  width: 20%;
+  height: 85%;
+  border-radius: 20px;
+  background-color: rgb(31, 118, 73);
+}
+.container .menu__bar .menu__bar-menus .food_list .food6 img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0px 0px;
+}
+.container .menu__bar .menu__bar-menus .food_list .food6 h3 {
+  padding-top: 4px;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .menu__bar .menu__bar-menus .food_list .food7 {
+  width: 20%;
+  height: 85%;
+  border-radius: 20px;
+  background-color: rgb(31, 118, 73);
+}
+.container .menu__bar .menu__bar-menus .food_list .food7 img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0px 0px;
+}
+.container .menu__bar .menu__bar-menus .food_list .food7 h3 {
+  padding-top: 5px;
+  color: #fff;
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .menu__bar .menu__bar-menus .food_list .food8 {
+  width: 20%;
+  height: 85%;
+  border-radius: 20px;
+  background-color: rgb(31, 118, 73);
+}
+.container .menu__bar .menu__bar-menus .food_list .food8 img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0px 0px;
+}
+.container .menu__bar .menu__bar-menus .food_list .food8 h3 {
+  color: #fff;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */
