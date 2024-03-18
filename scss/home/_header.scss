@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1500px;
+    border: 1px solid none;
+    margin: 0 auto;
+
+    header {
+        max-width: 100%;
+        height: 900px;
+        border: 1px solid none;
+        margin: 0 auto;
+
+        .header__img {
+            position: relative;
+            width: 100%;
+            height: 950px;
+            background-image: url(../../imgs/qozon-kabob2.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 950px;
+
+            .header__h3 {
+                display: flex;
+                justify-content: center;
+
+                h3 {
+                    position: absolute;
+                    font-size: 130px;
+                    color: rgb(146, 173, 24);
+                    font-family: "Whisper", sans-serif;
+                    font-weight: 600;
+                    font-style: normal;
+                    top: 500px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1000px){
+        header {
+            max-width: 100%;
+            height: 700px;
+            
+            .header__img {
+                width: 100%;
+                height: 700px;
+                background-image: url(../../imgs/qozon-kabob2.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 700px;
+    
+                .header__h3 {
+    
+                    h3 {
+                        font-size: 130px;
+                        top: 500px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,126 @@
+.container {
+
+    .navbar {
+        display: flex;
+        max-width: 100%;
+        height: 80px;
+        border: 1px solid none;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+        background-color: aliceblue;
+
+        .nav__contant {
+            display: flex;
+            width: 90%;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+            }
+
+            .nav__items {
+                display: flex;
+                gap: 35px;
+                font-family: "Merriweather", serif;
+                font-weight: 400;
+                font-style: normal;
+
+                a {
+                    color: rgb(31, 118, 73);
+                    font-size: 20px;
+                }
+
+                #nav__nomber {
+                    font-size: 14px;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .navbar {
+            height: 75px;
+
+            .nav__contant {
+                width: 85%;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+
+                .nav__items {
+                    gap: 30px;
+
+                    a {
+                        font-size: 18px;
+                    }
+
+                    #nav__nomber {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .navbar {
+            height: 65px;
+
+            .nav__contant {
+                width: 85%;
+
+                img {
+                    width: 45px;
+                    height: 45px;
+                }
+
+                .nav__items {
+                    gap: 25px;
+
+                    a {
+                        font-size: 15px;
+                    }
+
+                    #nav__nomber {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .navbar {
+            height: 60px;
+
+            .nav__contant {
+                width: 85%;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                .nav__items {
+                    gap: 20px;
+
+                    a {
+                        font-size: 12px;
+                    }
+
+                    #nav__nomber {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
